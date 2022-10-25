@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  /* background: yellow; */
+}
+
+.header1 {
+
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding: 25px;
+  height: 60px;
+  border-bottom: #D3D3D3;
+  box-shadow: 0 2px 1px #D3D3D3;
+}
+
+.list1 {
+
+  display: flex;
+  list-style-type: none;
+}
+
+.list1>li {
+
+
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .87);
+  letter-spacing: 1.4px;
+  text-align: left;
+  word-spacing: 0px;
+  padding: 15px;
+}
+
+.logo {
+  width: 51px;
+  height: 51px;
+  margin-right: 10px;
+}
+
+.right-header {
+
+  margin-left: auto;
+  padding: 30px;
+
+}
+
+.icon {
+  margin-right: 3px;
+}
+
+.span {
+  margin-right: 60px;
+  font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.16px;
+  line-height: 21px;
+  word-spacing: 0px;
+  color: rgb(39, 37, 31);
+}
+
+.btn {
+  margin-right: 40px;
+  border-radius: 400px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.16px;
+  line-height: 16.8px;
+
+}
+
+.btn2 {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.16px;
+  line-height: 16.8px;
+}
+
+.img {
+  width: 50%;
+  height: auto;
+
+}
+
+.section {
+  display: flex;
+
+  margin: 25px;
+}
+
+.side {
+  width: 50%;
+  height: auto;
+  background-color: #D4E9E2;
+
+}
+
+.content {
+  margin-top: 150px;
+}
+
+.heading {
+  font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 60px;
+  color: #1e3932;
+  word-spacing: 0px;
+}
+
+.para {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #1e3932;
+  font-size: 24px;
+}
+
+.playbtn {
+  background-color: #D4E9E2;
+  width: 150px;
+}
+
+.content2 {
+  margin: 43px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.heading2 {
+  font-size: 24px;
+  color: #1e3932;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.para2 {
+  margin-bottom: 20px;
+  font-size: 19px;
+  letter-spacing: -0.16px;
+  line-height: 33.25px
+}
+
+.bottom {
+
+  text-align: center;
+  padding-top: 45px;
+}
+
+.last-para {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: start;
+}
+
+td {
+  color: grey;
+}
+
+.table {
+  margin-top: 30px;
+  border-top: solid #D3D3D3;
+  border-bottom: solid #D3D3D3;
+}
+
+.fa-brands {
+  padding: 15px;
+  border-radius: 400px;
+  width: 25px;
+  height: 25px;
+}
